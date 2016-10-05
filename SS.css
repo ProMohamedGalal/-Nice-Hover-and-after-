@@ -1,0 +1,25 @@
+body {
+    padding: 0px;
+}
+
+a {
+    color: forestgreen;
+    font-weight: bold;
+    font-family: fantasy;
+    position: relative;
+    text-decoration: none
+}
+
+a:Hover:after {
+    width: auto;
+    content: "Click me To Go To Google";
+    color: indianred;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid #DDD;
+    border-radius: 5px;
+    position: absolute;
+    top: 25px;
+    left: 5px;
+    white-space: nowrap;
+}
